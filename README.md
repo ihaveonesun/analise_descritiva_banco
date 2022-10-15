@@ -15,3 +15,5 @@ Segue alguns dos tópicos que encontrará neste notebook:
 7. Conclusão
 
 Aqui prestarei um disclaimer ao esclarecer que, quanto a minha abordagem, esteve longe de extingir as possibilidades de exploração e análise deste banco de dados. Portanto, fiquem à vontade para explorar, estudar, aprimorar.
+
+Por exemplo, descartei duas features as quais agregariam maior qualidade e profundidade. "signos" excluí pela grande quantidade de valores faltantes. Já o "t_risco", não tomou parte ativa em minha análise, por que, até então, não estou certo quanto as características e impactos do uso da mesma, seja em análise ou na elaboração de um modelo ML.
