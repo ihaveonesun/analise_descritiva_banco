@@ -1,30 +1,14 @@
 # gitignore "mestre" com diversos tipos de ignored files
-# necessário organizar
 
 /shelf/
-
-.ipynb_checkpoints
-*.log
 *.pot
 *.pyc
 __pycache__/
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
 media
-.bak
-.env
 .gitignore
-.venv
 .lnk
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-old/
+/old/
 others/
-pythonenv*
 
 ####
 *.py[co]
@@ -61,10 +45,6 @@ MANIFEST
 
 release\.log\.utf-8\.tmp
 
-
-# Avaliar cada caso com cuidado 
-# Nos itens abaixo podem conter arquivos pertinentes
-# os quais em outros casos vi liberado
 .idea/
 /workspace.xml
 
@@ -126,6 +106,7 @@ coverage.xml
 *.log
 local_settings.py
 db.sqlite3
+db.sqlite3-journal
 
 # Flask stuff:
 instance/
@@ -160,6 +141,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+pythonenv*
 
 # Spyder project settings
 .spyderproject
